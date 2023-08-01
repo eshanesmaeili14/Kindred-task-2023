@@ -1,0 +1,763 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kindred Task- DACIA</title>
+<style type="text/css">
+@font-face {
+      font-family:'Dacia Block';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Regular.ttf) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Dacia Block';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/DaciaBlock-Bold.ttf) format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Read';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Regular_V1100.ttf) format('truetype');
+      font-weight: 400;
+      font-style: normal;
+    }
+    @font-face {
+      font-family:'Read';
+      src:    url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.eot) format('eot'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff2) format('woff2'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.woff) format('woff'),
+      url(https://cdn.group.renault.com/fonts/dacia/Read-Bold_V1100.ttf) format('truetype');
+      font-weight: 700;
+      font-style: normal;
+    }
+
+
+
+	body {
+		margin: 0;
+		background-color: #cccccc;
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+
+    .main{
+		margin: 0 auto;
+		width: 100%;
+		max-width: 640px;
+		border-spacing: 0;
+    }
+
+    .columns {
+		width: 100%;
+		max-width: 320px;
+		display: inline-block;
+		vertical-align: top;
+		text-align: center;
+	}
+
+    .three-columns{
+        display: flex;
+        justify-content: space-between;
+		text-align: center;
+		font-size: 0;
+	}
+
+	.three-columns .columns {
+		width: 100%;
+		max-width: 213px;
+		display: flex;
+        justify-content: space-around;
+		vertical-align: top;
+		text-align: center;
+	}
+
+    .center{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .title-set{
+        font-weight: bold;
+        font-family:"Dacia Block", Arial;
+        font-size: 24px;
+        line-height: 20px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+
+    .intro-set{
+        font-family: "Read",Arial;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+    }
+
+
+    .butn{
+        border: none;
+        padding: 10px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    .btn-sec{
+        color: #000000;
+        background-color: #ffffff;
+        border: 2px solid #000000;
+    }
+
+    .content{
+    font-size: 32px;
+    line-height: 36px;
+    padding: 0 5px;
+    }
+
+    .content p {
+    padding-top: 30px;
+  }
+
+  .social-box{
+    width: 100%;
+    max-width: 320px;
+    margin: auto;
+  }
+  .social-tiems{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #res{
+    display: flex;
+  }
+  .footer p {
+    font-family: "Read", Arial;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+    @media only screen and (max-width: 320px) {
+  .center {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0px;
+    align-content:space-between ;
+  }
+
+
+    .three-columns{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    }
+
+  .three-columns .columns{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #res{
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+    
+</style>
+</head>
+<body>
+
+    <div class="wrapper">
+        <table class="main" style="width: 100%;">
+
+<!-- LOGO SECTION -->
+
+<tr>
+    <td>
+        <table style="width: 100%;">
+            <tr>
+                <td style="padding: 40px 0px; text-align: center;">
+                    <a href="#"><img src="img/dacia_logo.png" alt="DACIA LOGO" width="270"></a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- BANNER IMAGE -->
+
+<tr>
+	<td><a href="#">
+
+        <picture>
+            <source  media="(max-width: 320px)"  srcset="img/KV_SringExtreme_Mob_FR.gif">
+            <img src="img/KV_SringExtreme_Desk_FR.gif" alt="head" width="640px" style="max-width: 100%;" />
+        </picture>
+
+    </td>
+</tr>
+
+<!-- TITLE, TEXT & BUTTON -->
+
+<tr>
+    <td>
+        <table style="width: 100%;">
+            <tr>
+                <td style="padding: 15px; text-align: center;">
+                    <p style="font-family: 'Dacia Block',Arial; font-size: 32px; font-weight: bold; color: black;">NOUVELLE DACIA SPRING
+                        100% ÉLECTRIQUE</p>
+                    
+                    <p style="font-family: 'Dacia Block',Arial; color: #646b52; font-size: 32px; font-weight: bold;" >NOUVEAU MOTEUR 65 CH, NOUVEAU LOOK
+                        TOUJOURS À PRIX DACIA !</p>
+
+                    <p style="font-family: 'Read',Arial; font-size: 17px;">Bonjour [Prénom], </p>
+
+                    <p style="font-family: 'Read',Arial; font-size: 20px; color: #000000;">
+                        À la recherche d’un second véhicule qui facilitera vos déplacements et
+                        augmentera votre plaisir de conduite ? C’est le moment de passer à l’électrique !
+                    </p>
+
+                    <p style="font-family: 'Read',Arial; font-size: 20px; color: #000000;">
+                        Découvrez, sans attendre, Dacia Spring Extreme
+                        avec <strong>moteur 100% électrique 65 ch, son nouveau look outdoor*
+                            et son autonomie jusqu’à 305 km(1)!</strong>  
+                    </p>
+
+                    <p style="font-family: 'Read',Arial; font-size: 20px; color: #000000;">
+                        Commandez-la dès maintenant pour être parmi les premiers à vivre
+                        l’expérience Dacia Spring Extreme.
+                    </p>
+
+                    <a href="#" class="butn" style="color: white; background-color: #646b52; cursor: pointer; text-decoration: none; ">DÉCOUVRIR SPRING EXTREME</a>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- INTERIOR DESIGN -->
+
+<tr>
+    <td style="padding-top: 30px;">
+        <table width="100%">
+            <td>        
+                <picture>
+                <source  media="(max-width: 320px)"  srcset="img/EN_RG_DACIA_CRM_NWL1_Spring-Crea_070223_Mob_02.png">
+                <img src="img/im-usp-1_1.jpg" alt="im-usp-2_1" width="640px" style="max-width: 100%;" />
+                </picture></a>
+            </td>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 0px; background-color: #f2f2f2;" class="center" >
+                    <table class="columns">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><a href="#"><img src="img/im-usp-1_2.jpg" alt="" width="640" style="max-width: 100%; cursor: pointer;"></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="columns">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td style="padding-top: 20px; padding-left: 10px; padding-right: 10px; text-align: center;" class="mob-padd">
+                                            <p style="color: black;" class="title-set">PARÉE POUR<span style="color: #646b52;" >L’AVENTURE
+                                                URBAINE</span> 
+                                            </p>
+                                            <p class="intro-set">Avec sa sellerie facile d’entretien, ses
+                                                tapis et seuils de porte spécifiques
+                                                ainsi que son système de navigation
+                                                Media Nav, Spring Extreme est prête
+                                                à vous accompagner au quotidien !
+                                                </p>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#" class="butn btn-sec">DÉCOUVRIR</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- EXTERIOR DESIGN -->
+
+<tr>
+    <td style="padding-top: 30px;">
+        <table width="100%">
+            <td>        
+                <picture>
+                <source  media="(max-width: 320px)"  srcset="img/EN_RG_DACIA_CRM_NWL1_Spring-Crea_070223_Mob_04.png">
+                <img src="img/im-usp-2_1.jpg" alt="im-usp-2_1" width="640px" style="max-width: 100%;" />
+                </picture></a>
+            </td>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td style="padding: 0px; background-color: #f2f2f2;" class="center" >
+                    <table class="columns">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><a href="#"><img src="img/im-usp-2_2.jpg" alt="" width="640" style="max-width: 100%;"></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="columns">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td style="padding-top: 20px; padding-left: 10px; padding-right: 10px; text-align: center;" class="mob-padd">
+                                            <p style="color: #646b52;" class="title-set"><span style="color: #000000;">NOUVEAU</span>MOTEUR</p>
+                                            <p class="intro-set">48kW, 65 ch. Concrètement ?
+                                                C’est un moteur plus robuste,
+                                                un meilleur démarrage,
+                                                plus de polyvalence…
+                                                bref plus de fun au volant !
+                                                
+                                                </p>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#" class="butn btn-sec">DÉCOUVRIR</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- OFFER SECTION -->
+
+<tr>
+    <td style="padding: 30px 0px; background-color: #646b52;">
+        <table width="100%">
+            <tr>
+                <td class="center">
+                    <table style="width: 100%; max-width: 320px;">
+                        <tr>
+                            <td >
+                                <table style="margin: 0 auto;">
+                                    <tr>
+                                        <td><p style="margin: 0; font-family: 'DACIA Block', Arial; font-size: 22px; font-weight: bold; color: white; text-transform: uppercase;">NOUVELLE <br>
+                                            DACIA SPRING
+                                            </p>
+                                            <p style="color: white; font-size: 20px;">
+                                                À partir de <span style="font-size: 30px; font-weight: bold;">5€/jour</span>
+                                            </p>
+                                        
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="width: 100%; max-width: 320px;">
+                        <tr>
+                            <td>
+                                <table style="margin: 0 auto;">
+                                    <tr>
+                                        <td><p style="font-size: 16px; color: white;">soit 150€/mois(2),<br>
+                                            LLD 49 mois sans apport,<br>
+                                            4 ans d’entretien inclus(6)
+                                             
+                                            </p>
+                                            <a href="#" class="butn" style="color: #646b52; background-color: white; font-family:'Read', Arial; font-weight: 700; cursor: pointer; text-decoration: none;">PROFITER DE L’OFFRE</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- MORE INFORMATION SECTION -->
+
+<tr>
+    <td style="padding: 30px 0;">
+        <table width="100%">
+            <tr>
+                <td class="center" style="background-color: #f2f2f2;">
+                    <table class="column">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td><a href="#"><img src="img/Bloc_Autonomie_M1_FR.gif" alt="" width="320" style="max-width: 320px; cursor:pointer;"></a></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <table class="columns">
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td style="padding: 20px 10px;"><p class="title-set">UNE VOITURE
+                                            FAITE POUR VOUS                                            
+                                            </p>
+                                            <p class="intro-set">Nouvelle Dacia Spring vous simplifie
+                                                le quotidien avec son autonomie
+                                                rassurante et sa recharge rapide !
+                                                Voyez par vous-même avec notre
+                                                simulateur d’autonomie : passer à
+                                                l’électrique n’a jamais été aussi simple.
+                                                </p>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#" class="butn btn-sec">EN SAVOIR PLUS</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- PROMOTION SECTION -->
+<tr>
+    <td style="background-color: #646b52;">
+        <table width="100%">
+            <tr>
+                <td style="display: flex; justify-content: space-around; padding: 10px 0px; text-align: center;" class="center">
+                   <table class="">
+                    <tr>
+                        <td>
+                            <a href="#"><img src="img/Icon_timer-1.png" alt="timer" ></a>
+                        </td>
+                    </tr>
+                   </table>
+                   <table class="">
+                    <tr>
+                        <td>
+                            <p style= "font-family: 'Read',Arial; font-size: 20px; color: white; margin: 0;">FAITES ESTIMER LA VALEUR DE VOTRE VÉHICULE </p>
+                            <p style="font-family: 'Read',Arial; font-weight: bold; font-size: 20px; color: white; margin: 0;"><strong>EN MOINS DE 3 MINUTES !</strong></p>
+                        </td>
+                    </tr>
+                   </table>
+                   <table class="">
+                    <tr>
+                        <td>
+                            <a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_button-next.png" alt="next"></a>
+                        </td>
+                    </tr>
+                   </table> 
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+<!-- CONTACT SECTION -->
+<tr>
+    <td style="padding:30px 0px;">
+        <table with="100%" style="margin: 0 auto;">
+            <tr>
+                <td>
+                    <h2 style="color: #646b52; color: #646b52;font-family: 'Read'; text-align: center; font-weight: bold;font-size: 32px;">RESTONS EN CONTACT</h2>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table width="100%">
+            <tr>
+                <td class="three-columns">
+                    <table class="columns">
+                        <tr>
+                            <td style="padding: 15px;">
+                                <table class="content">
+                                    <tr>
+                                        <td>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_question.png" alt="question"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 22px; font-weight: bold;">UNE<br> QUESTION ?</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="columns">
+                        <tr>
+                            <td style="padding: 15px;">
+                                <table class="content">
+                                    <tr>
+                                        <td>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_person.png" alt="person"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 22px; font-weight: bold;">MY DACIA</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table class="columns">
+                        <tr>
+                            <td style="padding: 15px;">
+                                <table class="content">
+                                    <tr>
+                                        <td>
+                                            <a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_contact.png" alt="contact"></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p style="font-size: 22px; font-weight: bold;">NOUS CONTACTER</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- HASHTAG SECTION -->
+<tr>
+    <td style="background-color: #333333;">
+        <table width="100%" style="text-align: center;">
+            <tr>
+                <td style="padding: 20px 10px;">
+                    <p style="color: white; font-family: 'Read',Arial; font-size: 22px; line-height: 25px; margin: 0 auto;">Au quotidien, prenez les transports en commun #SeDéplacerMoinsPolluer</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<!-- SOCIAL MEDIA SECTION -->
+<tr>
+    <td style="background-color: #646b52;">
+        <table width=" 100%">
+            <tr>
+                <td>
+                    <table style="margin: auto; ">
+                        <tr>
+                            <td>
+                                <h2 style="padding-top: 30px; color: #ffffff; font-family: 'Read', Aria; font-size: 32px; font-weight: bold; text-align: center; text-transform: uppercase;">
+                                    DACIA SOCIAL
+                                </h2>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+<tr>
+    <td style="background-color: #646b52; padding-bottom: 30px;">
+        <table class="social-box">
+            <tr>
+                <td class="social-tiems">
+                    <table>
+                        <td><a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_facebook.png" alt="social"></a></td>
+                    </table>
+                    <table>
+                        <td><a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_twitter.png" alt="social"></a></td>
+                    </table>
+                    <table>
+                        <td><a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_youtube.png" alt="social"></a></td>
+                    </table>
+                    <table>
+                        <td><a style="cursor:pointer; text-decoration: none;" href="#"><img src="img/Icon_instagram.png" alt="social"></a></td>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+
+<!-- FOOTER SECTION -->
+<tr>
+    <td>
+        <table width="100" style="width: 100%; max-width: 640px;">
+            <tr>
+                <td  id="res">
+                    <table><td style="padding: 30px;"><img src="img/Etiquette_1.png" alt="Etiquette_1"></td></table>
+                    <table><td style="padding: 40px 10px;"><p style="font-family: 'Read',Arial; font-size: 14px; font-weight: bold; color: black;" >Modèle présenté : Nouvelle Dacia Spring Extreme avec option peinture opaque
+                        bleu ardoise à 6,66€/jour, soit 200€/mois(4)
+                         - LLD 49 mois, 1er
+                         loyer de 7 500€,
+                        ramené à 0€ après déduction de 5 000€ de bonus écologique(5)
+                         et de 2 500€ de
+                        prime à la conversion(3)
+                        , 4 ans d’entretien inclus(6)
+                        .</p></td></table>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+<tr>
+    <td>
+        <table style="width: 100%; max-width: 640px;">
+            <tr>
+                <td style="padding: 10px 25px;" class="footer">
+                    <p>*style extérieur</p>
+                    <p>(1) Jusqu’à 305 km d’autonomie en cycle urbain** WLTP, selon version et équipements.
+                        Détail du cycle urbain : **le cycle urbain WLTP correspond à la partie urbaine du cycle normalisé. Le cycle
+                        complet WLTP est le cycle normalisé. Il se compose de 52% de trajets urbains et 48% de trajets extraurbains (périurbains et autoroute). </p>
+                        <p>
+                            (2) Exemple pour Nouvelle Dacia Spring Essential neuve avec option peinture opaque bleu ardoise. 1<span style="vertical-align: super; font-size: 10px;">er</span> loyer
+                            , correspondant à 27% du coût
+                            d’acquisition du véhicule TTC, et de 2 500€ de prime à la conversion<span style="vertical-align: super; font-size: 10px;">(3)</span>
+                            , puis 48 loyers de 150€/mois quel que
+                            soit le nombre de jours par mois (soit 5€ par jour pour un mois de 30 jours). 
+                            de 7 500€ ramené à 0€ après déduction de 5 000€ de bonus écologique <span style="vertical-align: super; font-size: 10px;">(5)</span>
+                        </p>
+                        <p>
+                            (2)(4) Le cas échéant, loyer à l’arrondi supérieur. Locations longue durée, hors assurances facultatives, sur
+                            49 mois pour un kilométrage maximum de 40 000 km. Sous réserve d’étude et d’acceptation par DIAC
+                            agissant sous la marque commerciale Mobilize Financial Services, SA au capital de 415 100 500€ - Siège
+                            social : 14 avenue du Pavé Neuf 93160 Noisy-le-Grand SIREN 702 002 221 RCS Bobigny. 
+                        </p>
+                        <p>En fin de contrat, restitution du véhicule chez votre concessionnaire avec paiement des frais de remise à
+                            l’état standard et des kilomètres supplémentaires.  </p>
+                        <p>
+                            (3) Déduction faite de la prime à la conversion de 2 500€ sous condition de mise au rebut d’un véhicule
+                            particulier ou camionnette diesel mis en circulation avant 2011 ou essence mis en circulation avant 2006
+                            (selon décret n°2022-1761 du 30 décembre 2022) et d’éligibilité, voir détails sur
+                            <a style="color: black; cursor:pointer;" href="https://www.primealaconversion.gouv.fr.">www.primealaconversion.gouv.fr.</a>
+                        </p>
+                        (5) Bonus écologique fixé à 27% du coût d’acquisition TTC du véhicule électrique neuf dans la limite de
+                        5 000€ (selon décret n°2022-1761 du 30 décembre 2022). En vigueur jusqu’au 31 décembre 2023.
+                        Conditions disponibles sur le site <a style="color: black; cursor:pointer;" href="htpps://www.service-public.fr">www.service-public.fr</a>
+                        <p>
+                            (6) Entretien Dacia inclus dans le loyer pour 12€/mois comprenant la révision, le remplacement des filtres et
+                            l’ensemble des opérations prévues dans le programme d’entretien selon conditions contractuelles sur 49
+                            mois jusqu’à 60 000 km (au 1<span style="vertical-align: super; font-size: 10px;">er</span>
+                            des 2 termes atteint). Voir détail de l’entretien en point de vente et sur
+                            dacia.fr. Le contrat de LLD peut être souscrit sans contrat d’entretien. 
+                        </p>
+                        <p style="text-decoration: underline;">
+                            Offres non cumulables, réservées aux particuliers et valables dans le réseau Dacia participant pour toute
+                            commande d’une Nouvelle Dacia Spring neuve du 1<span style="vertical-align: super; font-size: 10px;">er</span>
+                            au 28 février 2023. Voir conditions en points de vente
+                            et sur dacia.fr. 
+                        </p>
+                        <p style="font-weight: bold;">
+                            Gamme Dacia Nouvelle Spring : Consommations homologuées en cycle urbain (Wh/km) : 102.
+                            Émissions de CO<span style="vertical-align: sub; font-size: 10px;">2</span>
+                            : 0 lors du roulage, hors pièces d’usure. 
+                        </p>
+                        <p>
+                            Renault s.a.s. société par actions simplifiée au capital de 533 941 113 € / 122-122 bis avenue du Général
+                            Leclerc – 92 100 Boulogne-Billancourt - R.C.S. Nanterre B 780 129 987 
+                        </p>
+                        <p>
+                            Si vous souhaitez vous désabonner afin de ne plus recevoir d’offres personnalisées de la part de Renault
+                            SAS et des membres de son réseau commercial, 
+                        </p>
+                        <p>
+                            Si vous ne souhaitez pas que vos offres soient personnalisées, <span style="text-decoration:underline;">cliquez-ici.</span> 
+                        </p>
+
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+
+        </table>
+    </div>
+
+</body>
+</html>
+
+
+
+
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script>
+
+</script>
